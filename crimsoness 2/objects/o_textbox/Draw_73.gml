@@ -1,0 +1,1 @@
+draw_surface(textsurf, 0, 0);

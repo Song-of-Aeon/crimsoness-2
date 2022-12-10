@@ -1,0 +1,10 @@
+LADY COBALT
+mtxt()
+title music
+main music
+sound effects
+font
+mechanic
+timer
+
+there are 42 drawings in crimsoness
