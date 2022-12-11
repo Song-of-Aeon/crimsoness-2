@@ -24,6 +24,7 @@ function txt_start() {
 	cxt("\"Huh?# What was that?\"", WIDTH*.25, HEIGHT*.15),
 	cxt("Um, wait, I'm evil,#so I should instead...", WIDTH*.65, HEIGHT*.4, bk_standing),
 	cxt("|l3.0DO THIS!!", WIDTH*.5),
+	cxt("", u, u, u, function() {button_make(WIDTH*.65, HEIGHT*.5, "PUNCH", game_end)}),
 	cxt(""),
 	
 	],[

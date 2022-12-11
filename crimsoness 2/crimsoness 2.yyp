@@ -85,6 +85,7 @@
     {"id":{"name":"string_extend_digits","path":"scripts/string_extend_digits/string_extend_digits.yy",},"order":20,},
     {"id":{"name":"array_sum","path":"scripts/array_sum/array_sum.yy",},"order":8,},
     {"id":{"name":"dir2hv","path":"scripts/dir2hv/dir2hv.yy",},"order":2,},
+    {"id":{"name":"button_make","path":"scripts/button_make/button_make.yy",},"order":25,},
     {"id":{"name":"o_be_funny","path":"objects/o_be_funny/o_be_funny.yy",},"order":1,},
     {"id":{"name":"o_","path":"objects/o_/o_.yy",},"order":0,},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},"order":21,},

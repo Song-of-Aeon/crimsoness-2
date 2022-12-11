@@ -10,3 +10,16 @@ if global.hoverzone {
 	} else clickrate = 1/60;
 	BLUE = min(BLUE, BLUEMAX);
 }
+
+var i;
+for (i=0; i<array_length(buttons); i++) {
+	if mouse_x > buttons[i].lowbounds.x && mouse_x < buttons[i].highbounds.x && mouse_y > buttons[i].lowbounds.y && mouse_y < buttons[i].highbounds.y {
+		buttons[i].hovered = true;
+		if select {
+			buttons[i].event();
+			buttons = [];
+			global.buttoning = false;
+			break;
+		}
+	} else buttons[i].hovered = false;
+}

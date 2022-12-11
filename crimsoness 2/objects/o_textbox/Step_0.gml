@@ -1,19 +1,13 @@
 c_input();
-if global.hoverzone select = false;
+if global.hoverzone || global.buttoning select = false;
+halting = global.buttoning;
 wait--;
-
-if hardskip {
-	select = true;
-	wait = 0;
-}
 
 if interim {
 	textline_next();
 	exit;
 }
 
-skip = select;
-if hide halting = !halting;
 if select halting = false;
 
 var i;
