@@ -103,6 +103,7 @@
     {"id":{"name":"c_errorstring","path":"scripts/c_errorstring/c_errorstring.yy",},"order":3,},
     {"id":{"name":"with_array","path":"scripts/with_array/with_array.yy",},"order":21,},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":6,},
+    {"id":{"name":"COBALT","path":"objects/COBALT/COBALT.yy",},"order":4,},
     {"id":{"name":"m_null","path":"sounds/m_null/m_null.yy",},"order":13,},
     {"id":{"name":"draw_percent","path":"scripts/draw_percent/draw_percent.yy",},"order":4,},
     {"id":{"name":"keyboard_check_advanced","path":"scripts/keyboard_check_advanced/keyboard_check_advanced.yy",},"order":8,},

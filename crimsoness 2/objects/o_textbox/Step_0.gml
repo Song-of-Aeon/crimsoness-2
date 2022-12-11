@@ -1,4 +1,5 @@
 c_input();
+if global.hoverzone select = false;
 wait--;
 
 if hardskip {

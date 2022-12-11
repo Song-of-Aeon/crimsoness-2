@@ -1,11 +1,13 @@
 draw_set_color($FF0000);
 var i;
-for (i=0; i<HEIGHT; i++) {
+for (i=0; i<WIDTH; i++) {
 	/*if irandom(99) < global.linechance {
 		draw_line(0, i, WIDTH, i);
 	}*/
-	draw_set_alpha((.25+random(.75))*global.linechance/100);
+	//draw_set_alpha((.25+random(.75))*global.linechance/100);
+	draw_set_alpha(random(1));
 	draw_line(0, i, WIDTH, i);
+	//draw_line(i, 0, i, HEIGHT);
 }
 draw_set_alpha(1);
 
