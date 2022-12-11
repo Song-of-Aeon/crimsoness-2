@@ -23,6 +23,7 @@ for (i=array_length(talkers)-1; i>=0; i--) {
 if wait || halting exit;
 
 count++;
+charpos = min(charpos+talkspeed, string_length(msg[talkpos].text));
 
 if charpos < string_length(msg[talkpos].text) {
 	var i;
@@ -31,8 +32,6 @@ if charpos < string_length(msg[talkpos].text) {
 		tevents[flatpos+i].event(tevents[flatpos+i].argstr);
 		tevents[flatpos+i].event = c_null;
 	}
-	charpos += talkspeed;
-	
 	if ncm(4+round((1/talkspeed)/4)) se_play(talkers[0].talksound, random(1)+.5, .25);
 	if skip charpos = string_length(msg[talkpos].text);
 } else {

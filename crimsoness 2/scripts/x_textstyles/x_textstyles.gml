@@ -6,7 +6,7 @@ global.linechance = 75;
 global.textstyles.adv = {
 	x: MIDWID,
 	y: MIDHEI,
-	width: WIDTH*.8,
+	width: WIDTH,
 	height: HEIGHT,
 	spriteposy: -999,
 	namepos: new vec2(-999, -999),

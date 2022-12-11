@@ -60,3 +60,28 @@ function ptxt(style=global.textstyles.nvl) {
 		type: "ptxt",
 	};
 }
+
+function cxt(text_=c_errorstring(), x_=NaN, y_=NaN, background_="", event_=c_null) {
+	var sprite_ = global.textguy[$"nothingman"].NOTHING;
+	var spritepos_=SPRITEPOS.REPLACE;
+	return {
+		text: text_,
+		name: sprite_.char.name,
+		sprite: sprite_.val,
+		guy: sprite_.char,
+		event: event_,
+		spritepos: spritepos_,
+		sounds: [],
+		funcs: [],
+		type: "normal",
+		x: x_,
+		y: y_,
+		background: background_,
+		action: function(tid) {
+			log(x, y, background);
+			if x tid.x = x;
+			if y tid.y = y;
+			if background != "" tid.bg = [background];
+		},
+	};
+}

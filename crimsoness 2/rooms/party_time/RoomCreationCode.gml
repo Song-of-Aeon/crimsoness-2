@@ -1,1 +1,0 @@
-textbox_create(txt_test);

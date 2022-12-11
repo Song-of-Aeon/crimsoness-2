@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "User Interface? sortakinda",
-    "path": "folders/Sprites/User Interface? sortakinda.yy",
+    "name": "ui",
+    "path": "folders/Sprites/ui.yy",
   },
 }

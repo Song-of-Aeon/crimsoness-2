@@ -26,3 +26,22 @@ function lb_auto(str, maxlength) {
 	}
 	return str;
 }
+
+function lb_unauto(str) {
+	var possible = true;
+	var j;
+	var xpos = 0;
+	var extrapos = 0;
+	var lbcount = 0;
+	for (i=1; i<=string_length(str); i++) {
+		if string_char_at(str, i) == "#" {
+			lbcount = 0;
+			width = max(width, xpos);
+			xpos = 0;
+		}
+		lbcount++;
+		xpos += string_width(string_char_at(str, i));
+	}
+	width = max(width, xpos);
+	return str;
+}

@@ -2,7 +2,7 @@ function txt_test() {
 	
 	msg = msglang([
 	
-	txt("here i am."),
+	txt("\"3 more minutes,# then time's up!\""),
 	txt("the crimsoness two."),
 	txt("..."),
 	txt("???"),

@@ -9,6 +9,7 @@ function txt(text_=c_errorstring(), sprite_=global.textguy[$"nothingman"].NOTHIN
 		sounds: sounds_,
 		funcs: funcs_,
 		type: "normal",
+		action: c_null,
 	};
 }
 
