@@ -37,3 +37,5 @@ color2 = c_white;
 wiggle = new vec2();
 shake = new vec2();
 textpos = new vec2();
+randomplace = new vec2();
+randomplace2 = new vec2();

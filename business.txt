@@ -42,6 +42,14 @@ ALLEY
 
 "look, look! the sun's setting in just a few minutes!"
 
+"HELL NO."
+"WOMAN. the sun is FUCKING bright."
+"are you out of your MIND?"
+
+"ha ha, it's so pretty!"
+[TERUKA SHOUKORO]
+[HIGHSCHOOLER]
+
 "i'm always good. i think i'm pretty nice to people."
 "one day i want to be a field medic.."
 "...but there's more to life. i want to find out."
@@ -49,3 +57,9 @@ ALLEY
 "uh, evil mode activated."
 "..."
 "what now?"
+
+"hey, hey, teruka!"
+"let's take a picture!"
+[AYASE MIMISHIMA]
+
+""

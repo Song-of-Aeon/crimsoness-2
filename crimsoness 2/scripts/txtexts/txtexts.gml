@@ -78,7 +78,6 @@ function cxt(text_=c_errorstring(), x_=NaN, y_=NaN, background_="", event_=c_nul
 		y: y_,
 		background: background_,
 		action: function(tid) {
-			log(x, y, background);
 			if x tid.x = x;
 			if y tid.y = y;
 			if background != "" tid.bg = [background];

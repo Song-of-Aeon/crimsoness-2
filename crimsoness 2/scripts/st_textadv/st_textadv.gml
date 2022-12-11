@@ -24,8 +24,11 @@ function st_textadv() {
 	color = c_black;
 	color2 = c_black;
 	textpos = new vec2();
-	var randomplace = new vec2(irandom(4)-2, irandom(4)-2);
-	var mychar = ""
+	if ngm(2) {
+		randomplace = new vec2(irandom(2)-1, irandom(2)-1);
+		randomplace2 = new vec2(irandom(2)-1, irandom(2)-1);
+	}
+	var mychar = "";
 	for (i=1; i<=charpos; i++) {
 		mychar = string_char_at(msg[talkpos].text, i);
 		textpos.x = x+xpos-width/2+wiggle.x+shake.y;
@@ -35,10 +38,14 @@ function st_textadv() {
 	    if mychar = "#" {
 	        lb++;
 	        xpos = 0;
-			randomplace = new vec2(irandom(4)-2, irandom(4)-2);
+			if nam(global.count+1, 2) {
+				randomplace = new vec2(irandom(2)-1, irandom(2)-1);
+				randomplace2 = new vec2(irandom(2)-1, irandom(2)-1);
+			}
 	    } else if lb >= 0 {
 			draw_text_ext_transformed_colour(textpos.x, textpos.y, mychar, 0, 9999, size, size, angle, color, color, color2, color2, alpha);
 			draw_text_ext_transformed_colour(textpos.x+randomplace.x, textpos.y+randomplace.y, mychar, 0, 9999, size, size, angle, color, color, color2, color2, alpha);
+			draw_text_ext_transformed_colour(textpos.x+randomplace2.x, textpos.y+randomplace2.y, mychar, 0, 9999, size, size, angle, color, color, color2, color2, alpha);
 			xpos += string_width(mychar)*size;
 		}
 	}
