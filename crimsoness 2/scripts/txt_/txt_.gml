@@ -2,11 +2,11 @@ function txt_() {
 	
 	msg = msglang([
 	
-	txt(""),
+	cxt(""),
 	
 	],[
 	
-	txt(""),
+	cxt(""),
 	
 	])
 	

@@ -29,8 +29,8 @@ for (i=0; i<array_length(buttons); i++) {
 	draw_set_alpha(1);
 	draw_rectangle(buttons[i].lowbounds.x+therandom2.x, buttons[i].lowbounds.y+therandom2.y, buttons[i].highbounds.x+therandom2.x, buttons[i].highbounds.y+therandom2.y, true);
 	draw_text_transformed(buttons[i].x, buttons[i].y, buttons[i].name, buttons[i].size, buttons[i].size, 0);
-	draw_text_transformed(buttons[i].x+therandom2.x, buttons[i].y+therandom2.x, buttons[i].name, buttons[i].size, buttons[i].size, 0);
-	draw_text_transformed(buttons[i].x+therandom3.x, buttons[i].y+therandom3.x, buttons[i].name, buttons[i].size, buttons[i].size, 0);
+	draw_text_transformed(buttons[i].x+therandom2.x, buttons[i].y+therandom2.y, buttons[i].name, buttons[i].size, buttons[i].size, 0);
+	draw_text_transformed(buttons[i].x+therandom3.x, buttons[i].y+therandom3.y, buttons[i].name, buttons[i].size, buttons[i].size, 0);
 }
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
