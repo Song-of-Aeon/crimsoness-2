@@ -2,12 +2,12 @@ function txt_start() {
 	instance_create(0, 0, COBALT);
 	msg = msglang([
 	
-	cxt("\"The sun's setting in just# a few minutes!# Look, so pretty!\#", WIDTH*.43, HEIGHT*.02, bk_sunset),
+	cxt("\"The sun's setting in# just a few minutes!# Look, look!\#", WIDTH*.415, HEIGHT*.02, bk_sunset),
 	cxt("|l2.0HELL NO.", WIDTH*.65, HEIGHT*.4, bk_standing),
 	cxt("WOMAN.#The sun is FUCKING bright."),
 	cxt("Are you out of your MIND?"),
-	cxt("\"Ha ha,# it's so pretty!\"", WIDTH*.8, HEIGHT*.10, bk_friendly),
-	cxt("|c255255255[TERUKA SHOUKORO]", WIDTH*.6, HEIGHT*.1, bk_friendly2),
+	cxt("\"Ha ha,# it's so pretty!\"", WIDTH*.8, HEIGHT*.13, bk_friendly),
+	cxt("|c255255255[TERUKA SHOUKORO]", WIDTH*.62, HEIGHT*.1, bk_friendly2),
 	cxt("|c255255255[HIGHSCHOOLER]"),
 	cxt("I'm always good.#I think I'm pretty nice#to people.", WIDTH*.65, HEIGHT*.4, bk_standing2),
 	cxt("One day I want to be a field#medic. That's like, good."),
@@ -17,7 +17,7 @@ function txt_start() {
 	cxt("..."),
 	cxt("What now?", u, u, bk_standing2),
 	cxt("\"Hey, hey, Teruka!\"", WIDTH*.2, HEIGHT*.15, bk_friendly),
-	cxt("|c255255255[AYASE MIMISHIMA]", WIDTH*.4, HEIGHT*.1, bk_friendly2),
+	cxt("|c255255255[AYASE MIMISHIMA]", WIDTH*.43, HEIGHT*.1, bk_friendly2),
 	cxt("|c255255255[HIGHSCHOOLER]"),
 	cxt("\"Let's take a picture!\"", WIDTH*.25, HEIGHT*.1, bk_friendly),
 	cxt("|l0.8\"...No.\"", WIDTH*.8, HEIGHT*.15),

@@ -9,12 +9,20 @@ for (i=lowbounds.x; i<highbounds.x; i++) {
 draw_set_alpha(1);
 draw_set_color(make_color_rgb(0, 0, BLUE));
 draw_set_valign(fa_middle);
-draw_text(lowbounds.x+10, lowbounds.y+(highbounds.y-lowbounds.y)/2, "EVIL:");
+var therandom = new vec2(irandom(2)-1, irandom(2)-1);
+var therandom2 = new vec2(irandom(2)-1, irandom(2)-1);
+var therandom3 = new vec2(irandom(2)-1, irandom(2)-1);
+draw_text_transformed(lowbounds.x+5, lowbounds.y+(highbounds.y-lowbounds.y)/2+4, "EVIL:", 1.6, 1.6, 0);
+draw_text_transformed(lowbounds.x+5+therandom.x, lowbounds.y+(highbounds.y-lowbounds.y)/2+therandom.y+4, "EVIL:", 1.6, 1.6, 0);
+draw_text_transformed(lowbounds.x+5+therandom2.x, lowbounds.y+(highbounds.y-lowbounds.y)/2+therandom2.y+4, "EVIL:", 1.6, 1.6, 0);
 draw_set_halign(fa_right);
-draw_text(lowbounds.x+90, lowbounds.y+(highbounds.y-lowbounds.y)/2, floor(BLUE));
+draw_set_font(global.ft_coolnum);
+draw_text(lowbounds.x+170, lowbounds.y+(highbounds.y-lowbounds.y)/2, floor(BLUE));
+draw_text(lowbounds.x+170+therandom3.x, lowbounds.y+(highbounds.y-lowbounds.y)/2+therandom3.y, floor(BLUE));
+draw_set_font(ft_lucidiasans);
 draw_set_halign(fa_left);
-draw_text(lowbounds.x+90, lowbounds.y+(highbounds.y-lowbounds.y)/2, "/");
-draw_text(lowbounds.x+100, lowbounds.y+(highbounds.y-lowbounds.y)/2, BLUEMAX);
+draw_text(lowbounds.x+170, lowbounds.y+(highbounds.y-lowbounds.y)/2+10, "/" );
+draw_text(lowbounds.x+180, lowbounds.y+(highbounds.y-lowbounds.y)/2+10, BLUEMAX);
 
 draw_set_halign(fa_middle);
 var i;

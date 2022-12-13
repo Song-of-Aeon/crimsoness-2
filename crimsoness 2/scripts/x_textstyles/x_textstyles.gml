@@ -14,3 +14,5 @@ global.textstyles.adv = {
 	type: st_textadv,
 	font: ft_lucidiasans,
 }
+
+global.ft_coolnum = font_add_sprite(fts_coolnum, ord("0"), false, 2);
