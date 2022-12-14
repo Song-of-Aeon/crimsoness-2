@@ -3,7 +3,6 @@ mtxt()
 title music
 main music
 sound effects
-font
 mechanic
 timer
 
@@ -23,6 +22,8 @@ ALLEY
 "dear god, uh..."
 
 "yeah?"
+[GOD]
+[...GOD.]
 
 "oh. okay."
 "um....."
@@ -51,7 +52,7 @@ ALLEY
 [HIGHSCHOOLER]
 
 "i'm always good. i think i'm pretty nice to people."
-"one day i want to be a field medic.."
+"one day i want to be a field medic."
 "...but there's more to life. i want to find out."
 "before the sun sets, i want to be evil. then i'll go back to being good forever."
 "uh, evil mode activated."
@@ -62,4 +63,10 @@ ALLEY
 "let's take a picture!"
 [AYASE MIMISHIMA]
 
-""
+"...no."
+
+"huh? what was that?"
+
+"um, wait, i'm evil, so i should instead..."
+"DO THIS!!"
+

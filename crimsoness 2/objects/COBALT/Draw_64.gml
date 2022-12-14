@@ -3,7 +3,7 @@ var i;
 draw_set_alpha(.4);
 for (i=lowbounds.x; i<highbounds.x; i++) {
 	if irandom(300) < BLUE/3+20 {
-		draw_line(i, lowbounds.y, i, highbounds.y);
+		draw_line(i, lowbounds.y-1, i, highbounds.y);
 	}
 }
 draw_set_alpha(1);
