@@ -16,6 +16,7 @@ ROAD
 STORE
 ALLEY
 >SHRINE
+BLACK FLAME
 
 "um..."
 "i've never done this before..."
