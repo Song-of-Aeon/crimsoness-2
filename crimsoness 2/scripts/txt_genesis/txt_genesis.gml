@@ -1,4 +1,4 @@
-function txt_start() {
+function txt_genesis() {
 	instance_create(0, 0, COBALT);
 	msg = msglang([
 	
@@ -7,7 +7,7 @@ function txt_start() {
 	cxt("WOMAN.#The sun is FUCKING bright."),
 	cxt("Are you out of your MIND?"),
 	cxt("\"Ha ha,# it's so pretty!\"", WIDTH*.8, HEIGHT*.13, bk_friendly),
-	cxt("|c255255255[TERUKA SHOUKORO]", WIDTH*.62, HEIGHT*.1, bk_friendly2),
+	cxt("|c255255255[TERUKA OBORASHI]", WIDTH*.62, HEIGHT*.1, bk_friendly2), //SHOUKORO
 	cxt("|c255255255[HIGHSCHOOLER]"),
 	cxt("I'm always good.#I think I'm pretty nice#to people.", WIDTH*.65, HEIGHT*.4, bk_standing2),
 	cxt("One day I want to be a field#medic. That's like, good."),

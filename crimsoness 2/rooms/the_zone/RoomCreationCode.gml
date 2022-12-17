@@ -1,1 +1,1 @@
-textbox_create(txt_start);
+textbox_create(txt_genesis);

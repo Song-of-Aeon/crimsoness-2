@@ -17,7 +17,7 @@ function txt_mandeaded() {
 	cxt("\"...\"", WIDTH*.35, HEIGHT*.4, bk_mandead),
 	cxt("\"Haah...\"", WIDTH*.65, HEIGHT*.4, bk_standing),
 	cxt("\"I guess that's it...\"", WIDTH*.65, HEIGHT*.4, bk_standing2),
-	cxt("EVIL GAUGE UP!!", WIDTH*.6, HEIGHT*.25, u, function() {COBALT.BLUEMAX += 40}),
+	cxt("EVIL GAUGE UP!!", WIDTH*.6, HEIGHT*.25, u, function() {COBALT.BLUEMAX += 30}),
 	cxt("", u, u, u, function() {textbox_create(txt_choice); global.storebusted = true}),
 	
 	],[

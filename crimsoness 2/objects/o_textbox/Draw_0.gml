@@ -25,7 +25,7 @@ for (i=array_length(fg)-1; i>=0; i--) {
 	draw_sprite(fg[i], count*(sprite_get_speed(fg[i])/60), 0, 0);
 }
 fglogic();
-if !halting && !interim draw();
+if !interim draw();
 for (i=array_length(sg)-1; i>=0; i--) {
 	draw_sprite(sg[i], count*(sprite_get_speed(sg[i])/60), 0, 0);
 }

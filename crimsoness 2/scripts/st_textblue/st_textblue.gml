@@ -1,5 +1,5 @@
 function st_textblue() {
-	if halting exit;
+	//if halting exit;
 	draw_set_font(font);
 	draw_self();
 	draw_set_color(talkers[0].namecolor);

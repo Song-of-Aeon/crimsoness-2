@@ -30,7 +30,7 @@ for (i=0; i<array_length(buttons); i++) {
 	var therandom = new vec2(irandom(2)-1, irandom(2)-1);
 	var therandom2 = new vec2(irandom(2)-1, irandom(2)-1);
 	var therandom3 = new vec2(irandom(2)-1, irandom(2)-1);
-	draw_set_alpha(.4+buttons[i].hovered*.4);
+	draw_set_alpha(.5+buttons[i].hovered*.5);
 	draw_set_color($FF0000);
 	draw_rectangle(buttons[i].lowbounds.x+therandom.x, buttons[i].lowbounds.y+therandom.y, buttons[i].highbounds.x+therandom.x, buttons[i].highbounds.y+therandom.y, false);
 	draw_set_color(c_black);

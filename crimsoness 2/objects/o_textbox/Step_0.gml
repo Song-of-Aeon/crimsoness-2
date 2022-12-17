@@ -1,5 +1,8 @@
 c_input();
-if global.hoverzone || global.buttoning select = false;
+if global.hoverzone || global.buttoning {
+	select = false;
+	charpos = string_length(msg[talkpos].text);
+}
 halting = global.buttoning;
 wait--;
 

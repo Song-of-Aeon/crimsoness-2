@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "txt_start",
+  "name": "txt_genesis",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
