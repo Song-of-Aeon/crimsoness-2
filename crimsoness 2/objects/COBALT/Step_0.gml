@@ -24,5 +24,5 @@ for (i=0; i<array_length(buttons); i++) {
 	} else buttons[i].hovered = false;
 }
 
-theword = words[(BLUE>=50)+(BLUE>=100)+(BLUE>=150)+(BLUE>=200)+(BLUE==255)];
+theword = words[(BLUE>=25)+(BLUE>=50)+(BLUE>=75)+(BLUE>=100)+(BLUE==127)];
 //log(BLUE>=50, BLUE>=100, BLUE>=150, BLUE>=200, BLUE==255);

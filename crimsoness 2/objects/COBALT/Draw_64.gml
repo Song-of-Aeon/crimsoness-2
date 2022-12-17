@@ -2,12 +2,12 @@ draw_set_color($FF0000);
 var i;
 draw_set_alpha(.4);
 for (i=lowbounds.x; i<highbounds.x; i++) {
-	if irandom(300) < BLUE/3+20 {
+	if irandom(300) < BLUE/1.5+20 {
 		draw_line(i, lowbounds.y-1, i, highbounds.y);
 	}
 }
 draw_set_alpha(1);
-draw_set_color(make_color_rgb(0, 0, BLUE));
+draw_set_color(make_color_rgb(0, 0, BLUE*2+1));
 draw_set_valign(fa_middle);
 var therandom = new vec2(irandom(2)-1, irandom(2)-1);
 var therandom2 = new vec2(irandom(2)-1, irandom(2)-1);

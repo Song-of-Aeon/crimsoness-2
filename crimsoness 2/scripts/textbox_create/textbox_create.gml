@@ -1,4 +1,4 @@
-function textbox_create(textscript=txt_test, style=global.textstyles.adv, advancable=true, destroyothers=true) {
+function textbox_create(textscript=txt_test, style=global.textstyles.blue, advancable=true, destroyothers=true) {
 	instance_destroy(destroyothers ? o_textbox : noone);
 	var chump = instance_create(style.x, style.y, o_textbox);
 	chump.width = style.width;

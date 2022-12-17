@@ -2,10 +2,11 @@ function txt_punched() {
 	
 	msg = msglang([
 	
-	cxt("WHAM!!"),
-	cxt("Guh!"),
-	cxt("FLAP"),
-	cxt("Okay."),
+	cxt("|l3.0WHAM!!", WIDTH*.7, HEIGHT*.25, bk_punched),
+	cxt("\"Guh!\"", WIDTH*.165, HEIGHT*.2),
+	cxt("|l2.0EVIL MAX UP!!", WIDTH*.7, HEIGHT*.25, u, function() {COBALT.BLUEMAX += 10}),
+	cxt("|l1.8FLAP", WIDTH*.11, HEIGHT*.2, bk_fallen),
+	cxt("\"Okay.\"", WIDTH*.9, HEIGHT*.24),
 	cxt("", u, u, u, function() {
 		textbox_create(txt_choice);
 	}),
@@ -18,3 +19,5 @@ function txt_punched() {
 	
 	endevent = c_null;
 }
+
+#macro bz COBALT.BLUE=0

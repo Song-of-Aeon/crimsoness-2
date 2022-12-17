@@ -1,4 +1,4 @@
-function st_textadv() {
+function st_textblue() {
 	if halting exit;
 	draw_set_font(font);
 	draw_self();

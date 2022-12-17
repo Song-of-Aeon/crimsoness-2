@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "st_textadv",
+  "name": "st_textblue",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

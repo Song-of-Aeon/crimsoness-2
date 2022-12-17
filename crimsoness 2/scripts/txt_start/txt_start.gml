@@ -26,6 +26,7 @@ function txt_start() {
 	cxt("|l3.0DO THIS!!", WIDTH*.5, u, bk_standing),
 	cxt("", u, u, bk_punch, function() {button_make(WIDTH*.845, HEIGHT*.5, "PUNCH", function() {
 		textbox_create(COBALT.BLUE >= 10 ? txt_punched : txt_failpunch);
+		bz
 	})}),
 	
 	],[

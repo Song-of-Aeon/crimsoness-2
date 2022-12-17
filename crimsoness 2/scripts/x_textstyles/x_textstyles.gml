@@ -3,7 +3,7 @@ global.gw = 600;
 global.gh = 400;
 global.linechance = 75;
 
-global.textstyles.adv = {
+global.textstyles.blue = {
 	x: MIDWID,
 	y: MIDHEI,
 	width: WIDTH,
@@ -11,7 +11,7 @@ global.textstyles.adv = {
 	spriteposy: -999,
 	namepos: new vec2(-999, -999),
 	sprite: s_null,
-	type: st_textadv,
+	type: st_textblue,
 	font: ft_lucidiasans,
 }
 
