@@ -9,4 +9,4 @@ BLUE = 0;
 BLUEMAX = 255;
 
 theword = "EVIL";
-words = ["EVIL", ""];
+words = ["EVIL", "HURT", "HATE", "FURY", "BLUE", "END"];

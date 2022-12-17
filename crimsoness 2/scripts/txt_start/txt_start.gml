@@ -24,7 +24,9 @@ function txt_start() {
 	cxt("\"Huh?# What was that?\"", WIDTH*.25, HEIGHT*.15),
 	cxt("Um, wait, I'm evil,#so I should instead...", WIDTH*.65, HEIGHT*.4, bk_standing2),
 	cxt("|l3.0DO THIS!!", WIDTH*.5, u, bk_standing),
-	cxt("", u, u, bk_punch, function() {button_make(WIDTH*.845, HEIGHT*.5, "PUNCH", game_end)}),
+	cxt("", u, u, bk_punch, function() {button_make(WIDTH*.845, HEIGHT*.5, "PUNCH", function() {
+		textbox_create(COBALT.BLUE >= 10 ? txt_punched : txt_failpunch);
+	})}),
 	
 	],[
 	
