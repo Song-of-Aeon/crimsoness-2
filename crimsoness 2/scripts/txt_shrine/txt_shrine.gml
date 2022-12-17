@@ -20,7 +20,7 @@ function txt_shrine() {
 	cxt("|l2.0\"AAAAAAAAAAAAAA# AAAAAAAAAAAAAA# AAAAAAAAAAAAAA# AAAAAAAAAAAAAA# AAAAARGH\"", WIDTH*.37, HEIGHT*.4),
 	cxt("|l3.0\"DIE, GOD!!\"", WIDTH*.3, HEIGHT*.87),
 	cxt("", u, u, u, function() {button_make(WIDTH*.532, HEIGHT*.35, "PUNCH", function() {
-		textbox_create(COBALT.BLUE >= 1 ? txt_deicide : txt_faildeicide);
+		textbox_create(COBALT.BLUE >= 80 ? txt_deicide : txt_faildeicide);
 		bz
 	}, 3)}),
 	

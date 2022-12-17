@@ -5,7 +5,7 @@ for (i=0; i<WIDTH; i++) {
 		draw_line(0, i, WIDTH, i);
 	}*/
 	//draw_set_alpha((.25+random(.75))*global.linechance/100);
-	draw_set_alpha(random(1));
+	draw_set_alpha(random(.8)+.2);
 	draw_line(0, i, WIDTH, i);
 	//draw_line(i, 0, i, HEIGHT);
 }

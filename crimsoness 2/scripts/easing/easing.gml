@@ -1,6 +1,7 @@
 //https://github.com/Demigiant/dotween/blob/develop/_DOTween.Assembly/DOTween/Core/Easing/EaseManager.cs
 #macro _PiOver2 pi/2
 #macro _TwoPi pi*2
+
 function ease_Linear(time,duration){
 	return time / duration;	
 }

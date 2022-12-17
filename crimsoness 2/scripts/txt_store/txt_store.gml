@@ -19,8 +19,8 @@ function txt_store() {
 	cxt("\"...\"", WIDTH*.65, HEIGHT*.4, bk_standing),
 	cxt("\"I don't really know what# the professional way to# respond to that is.\"", WIDTH*.35, HEIGHT*.4, bk_man),
 	cxt("|l2.4\"THEN DIE!!\"", WIDTH*.5, HEIGHT*.4, bk_standing),
-	cxt("", u, u, bk_store, function() {button_make(WIDTH*.65, HEIGHT*.6, "PUNCH", function() {
-		textbox_create(COBALT.BLUE >= 3 ? txt_mandeaded : txt_failman);
+	cxt("", u, u, bk_store, function() {button_make(WIDTH*.8, HEIGHT*.7, "PUNCH", function() {
+		textbox_create(COBALT.BLUE >= 30 ? txt_mandeaded : txt_failman);
 		bz
 	})}),
 	

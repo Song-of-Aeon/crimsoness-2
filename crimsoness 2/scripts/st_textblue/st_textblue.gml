@@ -36,7 +36,7 @@ function st_textblue() {
 		textpass();
 		textpos.y -= ftheight*(size-1)/2;
 	    if mychar = "#" {
-	        lb++;
+	        lb += size;
 	        xpos = 0;
 			if nam(global.count+1, 2) {
 				randomplace = new vec2(irandom(2)-1, irandom(2)-1);

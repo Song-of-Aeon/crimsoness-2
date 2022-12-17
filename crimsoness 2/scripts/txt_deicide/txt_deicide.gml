@@ -7,7 +7,7 @@ function txt_deicide() {
 	cxt("\"HOW'S THAT FOR# DIVINE JUSTICE!?\"", WIDTH*.8, HEIGHT*.85),
 	cxt("..."),
 	cxt("...That was kind of a#stupid line...", WIDTH*.65, HEIGHT*.4, bk_standing2),
-	cxt("EVIL GAUGE UP!!", u, HEIGHT*.25, function() {COBALT.BLUEMAX += 27}),
+	cxt("|l2.0EVIL GAUGE UP!!", WIDTH*.6, HEIGHT*.25, u, function() {COBALT.BLUEMAX += 47}),
 	cxt("", u, u, u, function() {textbox_create(txt_choice); global.godkilled = true}),
 	
 	],[
