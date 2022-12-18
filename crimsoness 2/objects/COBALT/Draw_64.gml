@@ -1,3 +1,4 @@
+if global.terminating exit;
 draw_set_color($FF0000);
 var i;
 draw_set_alpha(.4);
