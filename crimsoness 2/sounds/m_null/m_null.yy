@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "m_null.ogg",
-  "duration": 0.001451,
+  "duration": 0.189274,
   "parent": {
     "name": "Music",
     "path": "folders/Music.yy",

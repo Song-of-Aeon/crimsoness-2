@@ -14,16 +14,16 @@ function txt_terminus() {
 	cxt("|c255255255 |l2.0 PSSSSSSHH"),
 	cxt("|c255255255..."),
 	cxt("|c255255255 |l3.0 FWOOOM"),
-	cxt("|c255255255And thus, the Sun was drowned.", WIDTH*.7, HEIGHT*.4, bk_dark),
+	cxt("And thus, the Sun was drowned.", WIDTH*.7, HEIGHT*.4, bk_dark),
 	//cxt("It collapsed in upon itself, beginning to unfurl into a white dwarf, but that, too, was extinguished."),
-	cxt("|c255255255Absorbing all of the energy,#the Sun gained enough mass to#collapse into a black hole."),
+	cxt("Absorbing all of the energy,#the Sun gained enough mass to#collapse into a black hole."),
 	cxt("|c255255255The Earth grew darker and darker,", WIDTH*.5, HEIGHT*.07, bk_sunsethree),
 	cxt("|c255255255and it became naught but#an ice planet."),
 	cxt("|c255255255Teruka Oborashi's cobalt blood#burst from her skin,"),
 	cxt("|c255255255raining down the final motes#of warmth upon the world."),
 	cxt("|c255255255She rocketed into space,"),
 	cxt("|c255255255and flew 150 million kilometers#into the black hole once known#as the Sun.", WIDTH*.7, u, bk_space, function() {
-		button_make(WIDTH*.3, HEIGHT*.7, "POETICEND", game_end);
+		button_make(WIDTH*.3, HEIGHT*.7, "POETICEND", c_null);
 	}),
 	
 	],[

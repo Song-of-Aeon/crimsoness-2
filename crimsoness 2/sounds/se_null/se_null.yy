@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_null.ogg",
-  "duration": 0.001451,
+  "duration": 0.189274,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

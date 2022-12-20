@@ -6,7 +6,7 @@ highbounds = new vec2(WIDTH, HEIGHT*.12);
 buttons = [];
 
 BLUE = 0;
-BLUEMAX = 25;
+BLUEMAX = 127//25;
 
 theword = "EVIL";
 words = ["EVIL", "HURT", "HATE", "FURY", "BLUE", "END"];
