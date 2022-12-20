@@ -3,8 +3,10 @@ global.hoverzone = mouse_x > lowbounds.x && mouse_x < highbounds.x && mouse_y > 
 if global.hoverzone {
 	if select {
 		BLUE++;
+		se_play(se_power);
 	}
 	if selecthold {
+		if floor(BLUE+clickrate) != floor(BLUE) se_play(se_power);
 		BLUE += clickrate;
 		clickrate = min(clickrate*1.025, .4);
 	} else clickrate = 1/60;

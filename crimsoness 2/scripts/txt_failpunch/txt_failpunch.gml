@@ -1,5 +1,5 @@
 function txt_failpunch() {
-	
+	se_play(se_bump);
 	msg = msglang([
 	
 	cxt("*bop*", WIDTH*.3, HEIGHT*.335, bk_failpunch),

@@ -8,6 +8,7 @@ function txt_finale4() {
 	cxt("|c255255255And I'll live virtuously after."),
 	cxt("|c255255255Again!!", u, u, u, function() {button_make(WIDTH*.15, HEIGHT*.25, "PUNCH", function() {
 		textbox_create(COBALT.BLUE >= 100 ? txt_finale5 : txt_failfinale);
+		bz
 	})}),
 	
 	],[
