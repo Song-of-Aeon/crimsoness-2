@@ -1,6 +1,7 @@
 function string_extend_digits(str, integers, decimals=0) {
 	var ints = 0;
 	var decs = 0;
+	str = string(str);
 	if decimals decimals++;
 	var i;
 	for (i=0; i<string_length(str); i++) {

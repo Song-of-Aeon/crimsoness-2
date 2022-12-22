@@ -4,7 +4,7 @@
   "name": "se_levelup",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_levelup.wav",
-  "duration": 0.374422,
+  "duration": 0.8,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
