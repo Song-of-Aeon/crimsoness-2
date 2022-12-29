@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_bump.wav",
-  "duration": 1.499955,
+  "duration": 0.299955,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

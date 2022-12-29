@@ -20,7 +20,7 @@ draw_set_halign(fa_right);
 draw_set_font(global.ft_coolnum);
 draw_text(lowbounds.x+170, lowbounds.y+(highbounds.y-lowbounds.y)/2, floor(BLUE));
 draw_text(lowbounds.x+170+therandom3.x, lowbounds.y+(highbounds.y-lowbounds.y)/2+therandom3.y, floor(BLUE));
-draw_text(WIDTH, HEIGHT-30, string(floor(TIME/60)) + ":" + string_format(floor(TIME%60), 2, 0) + ":" + string_format(TIME%1*99, 2, 0));
+draw_text(WIDTH, HEIGHT-30, string(floor(TIME/60)) + ":" + string_format(floor(TIME%60), 2, 0) + "." + string_format(TIME%1*99, 2, 0));
 draw_set_font(ft_lucidiasans);
 draw_set_halign(fa_left);
 draw_text(lowbounds.x+170, lowbounds.y+(highbounds.y-lowbounds.y)/2+10, "/" );

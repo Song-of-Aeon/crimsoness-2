@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_duty.wav",
-  "duration": 1.0,
+  "duration": 0.5,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

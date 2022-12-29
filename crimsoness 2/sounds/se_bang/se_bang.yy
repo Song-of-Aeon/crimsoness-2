@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_bang.wav",
-  "duration": 0.299955,
+  "duration": 1.0,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
