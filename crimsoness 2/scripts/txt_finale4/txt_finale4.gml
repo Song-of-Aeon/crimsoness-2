@@ -1,5 +1,5 @@
 function txt_finale4() {
-	
+	se_play(se_bang);
 	msg = msglang([
 	
 	cxt("I know it's unforgivable. That's the point.", u, u, bk_punch2),

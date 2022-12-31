@@ -1,5 +1,5 @@
 function txt_faildeicide() {
-	
+	music_set(mus.duty);
 	msg = msglang([
 	
 	cxt("\"No.\"", WIDTH*.532, HEIGHT*.47, bk_god),

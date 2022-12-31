@@ -1,5 +1,5 @@
 function txt_finale3() {
-	
+	se_play(se_bump);
 	msg = msglang([
 	
 	cxt("", u, u, bk_punch1),

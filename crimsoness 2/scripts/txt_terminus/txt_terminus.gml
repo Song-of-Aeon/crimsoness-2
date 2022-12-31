@@ -10,7 +10,7 @@ function txt_terminus() {
 	cxt("THERE'S NO EXCUSE!!"),
 	cxt("|l4.0NOW DIE!!", WIDTH*.1, HEIGHT*.5, bk_killer2),
 	cxt("|l2.6*WHING*"),
-	cxt("|c255255255...", MIDWID, MIDHEI, s_null),
+	cxt("|c255255255...", MIDWID, MIDHEI, s_null, function() {se_play(se_break)}),
 	cxt("|c255255255 |l2.0 PSSSSSSHH"),
 	cxt("|c255255255..."),
 	cxt("|c255255255 |l3.0 FWOOOM"),

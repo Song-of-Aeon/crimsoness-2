@@ -1,5 +1,5 @@
 function txt_failman() {
-	
+	se_play(se_bang);
 	msg = msglang([
 	
 	cxt("|l2.0YAAAAAAAAAAGH", WIDTH*.5, HEIGHT*.165, bk_storepunch),
